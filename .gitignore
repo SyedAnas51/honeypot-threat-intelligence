@@ -1,0 +1,6 @@
+.env
+seen_ips.json
+last_position.txt
+enricher.log
+__pycache__/
+*.pyc
