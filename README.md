@@ -5,15 +5,13 @@ A fully operational SSH honeypot deployed on Oracle Cloud Infrastructure, captur
 Built as a personal cybersecurity project to demonstrate SOC operations, threat intelligence collection, log engineering, and cloud infrastructure skills.
 
 ---
-
-## 📊 Live Stats (as of June 2026)
-- **500+ unique attacker IPs** captured from the open internet
-- **35+ countries** identified as attack sources
-- **70,000+ log events** processed and shipped to Grafana Cloud
-- **Top targeted usernames:** root, ubuntu, admin, deploy, pi
-- **Most common attack tools:** libssh, paramiko, PuTTY, Go SSH clients, Perl bots
+## 📊 Live Stats (as of July 2026)
+- **1,320+ unique attacker IPs** captured from the open internet
+- **50+ countries** identified as attack sources
+- **Continuous monitoring** since June 16, 2026
+- **Top targeted usernames:** sysadmin, ubuntu, root, admin
+- **Notable:** Detected active botnet campaign targeting "sysadmin" with 28,000+ attempts
 - Pipeline runs **24/7 autonomously** with zero manual intervention
-
 ---
 
 ## 🏗️ Architecture
